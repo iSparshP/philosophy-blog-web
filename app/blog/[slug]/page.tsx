@@ -12,11 +12,11 @@ export default async function PostPage(props: { params: Promise<{ slug: string }
     if (!post) notFound();
 
     return (
-        <article className="min-h-screen bg-white dark:bg-neutral-950 font-sans">
-            <nav className="border-b border-neutral-100 dark:border-neutral-800 sticky top-0 bg-white/80 dark:bg-neutral-950/80 backdrop-blur-md z-10">
+        <article className="min-h-screen bg-blue-50 font-sans">
+            <nav className="border-b border-blue-100 sticky top-0 bg-white/80 backdrop-blur-md z-10">
                 <div className="container mx-auto px-4 max-w-3xl h-16 flex items-center">
-                    <Link href="/" className="text-sm font-medium text-neutral-500 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors flex items-center gap-2">
-                        ← Back to Agora
+                    <Link href="/" className="text-sm font-medium text-slate-500 hover:text-blue-900 transition-colors flex items-center gap-2">
+                        ← Back to Home
                     </Link>
                 </div>
             </nav>
@@ -25,17 +25,17 @@ export default async function PostPage(props: { params: Promise<{ slug: string }
                 <header className="mb-12">
                     <div className="flex gap-2 mb-6">
                         {post.tags?.map(tag => (
-                            <span key={tag} className="text-xs font-semibold tracking-wider uppercase text-blue-600 dark:text-blue-400">
+                            <span key={tag} className="text-xs font-semibold tracking-wider uppercase text-blue-600">
                                 {tag}
                             </span>
                         ))}
                     </div>
-                    <h1 className="text-4xl md:text-5xl font-bold mb-6 font-serif leading-tight text-neutral-900 dark:text-neutral-100">
+                    <h1 className="text-4xl md:text-5xl font-bold mb-6 font-serif leading-tight text-blue-900">
                         {post.title}
                     </h1>
-                    <div className="flex items-center gap-4 text-neutral-500 text-lg">
+                    <div className="flex items-center gap-4 text-slate-500 text-lg">
                         <div className="flex flex-col">
-                            <span className="font-semibold text-neutral-900 dark:text-neutral-200">{post.author}</span>
+                            <span className="font-semibold text-blue-900">{post.author}</span>
                             <span className="text-sm">{new Date(post.publishDate).toLocaleDateString('en-US', { dateStyle: 'full' })}</span>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ export default async function PostPage(props: { params: Promise<{ slug: string }
                     </figure>
                 )}
 
-                <div className="prose prose-neutral dark:prose-invert prose-lg max-w-none prose-headings:font-serif prose-headings:font-bold prose-p:leading-relaxed prose-a:text-blue-600 hover:prose-a:text-blue-500">
+                <div className="prose prose-slate prose-lg max-w-none prose-headings:font-serif prose-headings:font-bold prose-p:leading-relaxed prose-a:text-blue-600 hover:prose-a:text-blue-500">
                     <ReactMarkdown>{post.body}</ReactMarkdown>
                 </div>
 

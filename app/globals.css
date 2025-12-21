@@ -2,9 +2,10 @@
 
 @plugin "@tailwindcss/typography";
 
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #eff6ff; /* blue-50 */
+  --foreground: #172554; /* blue-950 */
 }
 
 @theme inline {
@@ -16,8 +17,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #eff6ff; /* Force light mode blue-50 even in dark mode for now as requested */
+    --foreground: #172554; /* blue-950 */
   }
 }
 

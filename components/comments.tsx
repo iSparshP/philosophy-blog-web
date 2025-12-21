@@ -4,8 +4,8 @@ import Giscus from '@giscus/react';
 
 export default function Comments() {
   return (
-    <div className="mt-16 pt-12 border-t border-neutral-200 dark:border-neutral-800">
-      <h2 className="text-2xl font-bold font-serif mb-8 text-neutral-900 dark:text-neutral-100">Discussion</h2>
+    <div className="mt-16 pt-12 border-t border-blue-200">
+      <h2 className="text-2xl font-bold font-serif mb-8 text-blue-900">Discussion</h2>
       <Giscus
         id="comments"
         repo="[YOUR_GITHUB_USERNAME]/[YOUR_REPO_NAME]"
@@ -17,7 +17,7 @@ export default function Comments() {
         reactionsEnabled="1"
         emitMetadata="0"
         inputPosition="top"
-        theme="preferred_color_scheme"
+        theme="light"
         lang="en"
         loading="lazy"
       />

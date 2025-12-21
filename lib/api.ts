@@ -1,3 +1,7 @@
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+
 export interface Post {
     title: string;
     excerpt: string;
@@ -9,24 +13,58 @@ export interface Post {
     body: string;
 }
 
-const API_URL = process.env.CMS_URL || 'http://localhost:4321/api';
+const postsDirectory = path.join(process.cwd(), '_posts');
 
 export async function getAllPosts(): Promise<Post[]> {
-    try {
-        const res = await fetch(`${API_URL}/posts`, { cache: 'no-store' });
-        if (!res.ok) throw new Error('Failed to fetch posts');
-        return res.json();
-    } catch (error) {
-        console.error('Error fetching posts:', error);
+    if (!fs.existsSync(postsDirectory)) {
         return [];
     }
+
+    const fileNames = fs.readdirSync(postsDirectory);
+    const allPostsData = fileNames.map((fileName) => {
+        // Remove ".md" from file name to get slug
+        const slug = fileName.replace(/\.md$/, '');
+
+        // Read markdown file as string
+        const fullPath = path.join(postsDirectory, fileName);
+        const fileContents = fs.readFileSync(fullPath, 'utf8');
+
+        // Use gray-matter to parse the post metadata section
+        const { data, content } = matter(fileContents);
+
+        return {
+            slug,
+            body: content,
+            ...(data as any),
+        } as Post;
+    });
+
+    // Sort posts by date
+    return allPostsData.sort((a, b) => {
+        if (a.publishDate < b.publishDate) {
+            return 1;
+        } else {
+            return -1;
+        }
+    });
 }
 
 export async function getPostBySlug(slug: string): Promise<Post | null> {
     try {
-        const res = await fetch(`${API_URL}/posts/${slug}`, { cache: 'no-store' });
-        if (!res.ok) return null;
-        return res.json();
+        const fullPath = path.join(postsDirectory, `${slug}.md`);
+        
+        if (!fs.existsSync(fullPath)) {
+            return null;
+        }
+
+        const fileContents = fs.readFileSync(fullPath, 'utf8');
+        const { data, content } = matter(fileContents);
+
+        return {
+            slug,
+            body: content,
+            ...(data as any),
+        } as Post;
     } catch (error) {
         console.error(`Error fetching post ${slug}:`, error);
         return null;
