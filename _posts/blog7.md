@@ -4,7 +4,7 @@ excerpt: " "
 author: "Faizaan Sidiq"
 tags: [" "]
 publishDate: "2022-08-20"
-image: "https://publicorthodoxy.org/wp-content/uploads/2020/07/quran-1024x682.jpg "
+image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh1MVCouLkA1m7Aj6hEU4qQZh5NBRqAZtGoA&s "
 ---
 
 Before we start, we request people to study in case you don't know 'the two worlds of Christianity' i.e., the Western Christianity and the Eastern Christianity because people having no idea about it would eventually be hellbent and reject whatever is being said here. We need to study about 'The Great Schism' and primarily we need to understand that Qur'ān mentions two kinds of Christians i.e., those Christians who are in friendship and alliance with the jews aka "Zionists" (Qur'ān 5:51) and then there are those Christians whom Allāh praises and helps them to be victorious (Qur'ān 30:5, Muslims celebrated when these Christians were victorious)
