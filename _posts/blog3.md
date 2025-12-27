@@ -3,7 +3,7 @@ title: "Gaza, Gog and Magog and Test Of Faith."
 excerpt: 'The shark plays with the sardine before swallowing her down. The shark makes use of law and "believes" in law before making a joke of it. '
 author: "Faizaan Sidiq"
 tags: [" "]
-publishDate: "2024-08-03"
+publishDate: "2024-09-03"
 image: "https://www.leavinglaodicea.com/wp-content/uploads/2023/11/gog-and-magog-invasion-who-what-and-when-800-300-1-1.jpg "
 ---
 The above lines have been recorded by the former president of Guatemala, Juan José Arévalo, in his beautifully written book Sharks and Sardines. This fascinating book provides an in-depth understanding of the oppressive nature of godless modern Western civilization and its effects on South America. How has Pax Americana waged so many wars and spilled so much blood, yet gotten away with it?
