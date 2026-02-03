@@ -3,7 +3,7 @@ title: "Prophet Muhammad's (ﷺ) promise to the Christians"
 excerpt: " "
 author: "Faizaan Sidiq"
 tags: [" "]
-publishDate: "2025-12-21"
+publishDate: "2021-12-23"
 image: "https://timesofindia.indiatimes.com/travel/web-stories/15-of-the-worlds-oldest-churches/photostory/104534141.cms"
 ---
 
