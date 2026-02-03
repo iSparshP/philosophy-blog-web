@@ -4,7 +4,7 @@ excerpt: " "
 author: "Faizaan Sidiq"
 tags: [" "]
 publishDate: "2021-12-23"
-image: "https://timesofindia.indiatimes.com/travel/web-stories/15-of-the-worlds-oldest-churches/photostory/104534141.cms"
+image: "https://images-cdn.bridgemanimages.com/api/1.0/image/600wm.GDG.4586740.7055475/473675.jpg?old-wm"
 ---
 
 Muslims and Christians together constitute over fifty percent of the world and if they lived in peace, we will be half way to world peace. One small step that we can take towards fostering Muslim-Christian harmony is to tell and retell positive stories and abstain from mutual demonization. In this article we propose to remind both Muslims and Christians about a promise that Prophet Muhammed ﷺ made to Christians. The knowledge of this promise can have enormous impact on Muslim conduct towards Christians. Muslims generally respect the precedent of their Prophet and try to practice it in their lives.
