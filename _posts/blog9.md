@@ -40,10 +40,8 @@ In the 1967 war (also known as the six day war) Israel expanded its illegal clai
 One of the most dramatic events of all came in 2001, famously known as the 9/11 attack on the world trade centre that set the stage for a series of events that followed. That attack (that had all the footprints of a false flag attack) was then used to wage wars on the world of Islam. The American invasions of Iraq and Afghanistan lead to the deaths of millions of innocent civilians and a complete destruction and annihilation of the two countries.
 Only ten days after the 9/11 attack on the world trade centre, the Zionist regime had planned a series of wars that would end with Iran. Below is a statement made by a prominent US general,
 
->**Wesley Clarke – (A4 star general of the US army)*,
->“We have decided to take down 7
-> countries in 5 years, starting with Iraq, then Syria, Libya, Lebanon, Somalia, Sudan and
->finishing off with Iran.”
+>**Wesley Clarke – (A4 star general of the US army)**,
+>**“We have decided to take down 7 countries in 5 years, starting with Iraq, then Syria, Libya, Lebanon, Somalia, Sudan and finishing off with Iran.”**
 
 Libya then descended into a brutal civil war after the killing of their leader
 Muammar Gadhafi which was then followed by the catastrophic destruction of
